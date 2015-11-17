@@ -1,0 +1,25 @@
+Feito por Felipo Antonoff e Comprado na Code Market
+
+Incluso o Módulo PagSeguro 2 e a modificação do Lightbox
+
+--------- Instalação ---------
+
+Instalação normal, igual a 1.5.x
+
+1) Copie as pastas 4 pastas para a raiz da sua loja
+2) Pelo Instalador do Opencart 2.0, selecione o Felipo-Pagseguro-Lightbox.ocmod.xml para instalar o xml
+3) De a permissão ao Grupo do Usuário usado para poder ver e modificar o Pagamento Pagseguro
+4) Em Extensãoes -> Pagamentos , clique em instalar no PagSeguro e depois Edite ele
+
+Guia do Módulo PagSeguro:
+
+5 - No painel da sua conta no site do PagSeguro(menu à esquerda) navegue até Preferências -> Frete, escolha o tipo de frete conforme a configuração feita para o módulo.
+	Se optou pelo frete calculado pela sua loja, marque 'Frete fixo'. Se optou pelo cálculo de frete feito pelo PagSeguro, marque "Frete por peso"
+6 - Ainda neste menu, navegue até Integrações -> Notificação de Transação, marque "Ativado" e define a URL de notificações seguindo o padrão:
+	http://www.SUALOJA.com.br/index.php?route=payment/pagseguro/callback
+
+	Substitui a parte 'SUALOJA' pelo nome de sua loja.
+
+7 - Confira se a opção "Pagamento Via API" esteja desativada.
+8 - Confira se a opção "Retorno automático de dados" esteja desativada.
+9 - Confira se as duas opções (Página fixa de redirecionamento e Página de redirecionamento dinâmico) no menu "Página de redirecionamento" estejam desativadas.
