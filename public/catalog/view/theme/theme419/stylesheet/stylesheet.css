@@ -343,14 +343,15 @@ a#hidden {
 }
 /* header */
 header {
-	background:url(../image/header.png) repeat left top #252525;
+	/* background:url(../image/header.png) repeat left top #252525; */
 	position: relative;
 	color:#9d9d9d;
+	background-color: #FFFFFF;
+	/* background: url(../image/bg.png) repeat left top #f7f6f7; */
 }
 header #logo a img {
 	vertical-align:top;
-	max-width:100%;
-	width:100%;
+	max-height: 110px;
 }
 header #logo {
 	float:left;
@@ -682,7 +683,7 @@ body div.shadow {
 #cart .heading span.link_a strong, #cart .heading span.link_a b {
 	font-weight:500;
 	text-transform:uppercase;
-	color:#fff;
+	color:#252525;
 	font-size:14px;
 }
 #cart .heading span.link_a {
@@ -879,10 +880,13 @@ header #cart .empty {
 /* menu 
 ============================================================================================== */
 header .toprow {
-	width:100%;
-	background:url(../image/toprow.png) repeat-x left bottom;
-	padding:12px 0;
-	margin-bottom:27px;
+    width: 100%;
+    /* background: url(../image/toprow.png) repeat-x left bottom; */
+    padding: 12px 0;
+    margin-bottom: 27px;
+    /* background-color: #fff; */
+    border-bottom: solid 2px #C65657;
+    background: url(../image/bg.png) repeat left top #f7f6f7;
 }
 header .toprow-1 {
 	z-index:100;
@@ -917,7 +921,7 @@ header .links a.active, header .links a:hover {
 header .links a {
 	display:inline-block;
 	font-size:11px;
-	color:#fff;
+	color:#252525;
 	font-weight:300;
 	text-transform:uppercase;
 	line-height:20px;
