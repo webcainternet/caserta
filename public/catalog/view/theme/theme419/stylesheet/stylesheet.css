@@ -969,21 +969,23 @@ header .links a {
 	text-align:center;
 	width:30px;
 	line-height:25px;
+	margin-top: 20px;
 }
 #search .button-search:hover {
 	color:#C75758;
 	cursor:pointer;
 }
 #search input {
-	float:left;
-	border-radius:0;
-	line-height:19px;
-	height:25px;
-	width:270px;
-	margin:0;
-	padding:3px 35px 3px 8px;
-	background-color:#fff;
-	border-color:#eaeaea
+    float: left;
+    line-height: 19px;
+    height: 45px;
+    width: 270px;
+    margin: 0;
+    padding: 3px 35px 3px 8px;
+    background-color: #fff;
+    border-color: #eaeaea;
+    border-radius: 10px;
+    margin-top: 10px;
 	}
 /* name 
 ============================================================================================== */
