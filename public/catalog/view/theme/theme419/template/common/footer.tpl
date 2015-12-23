@@ -7,6 +7,11 @@
 <footer>
 	<div class="container" style="border-top: solid 5px #519c87; padding-top: 30px;">
 		<div class="row">
+			<div class="col-sm-2">
+				<img src="/image/data/logo.png" style="margin-top: 20px; max-width: 70%;">
+			</div>
+
+
 			<?php if ($informations) { ?>
 			<div class="col-sm-2">
 				<h3><?php echo $text_information; ?></h3>

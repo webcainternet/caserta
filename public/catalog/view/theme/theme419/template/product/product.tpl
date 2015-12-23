@@ -1,4 +1,17 @@
 <?php echo $header; ?>
+
+<style type="text/css">
+	.col-sm-3 {
+		display: none;
+	}
+	.col-sm-9 {
+		width: 100%;
+	}
+	.product-section {
+		display: none;
+	}
+</style>
+
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
 	<div class="breadcrumb">
@@ -63,7 +76,7 @@
 		<?php } ?>
 		</div>
 	<div class="col-sm-8">
-		<h1><?php echo $heading_title; ?></h1>
+		<h1 style="border: 0px;"><?php echo $heading_title; ?></h1>
 	  <div class="description">
 		<div class="product-section">
 			<?php if ($manufacturer) { ?>

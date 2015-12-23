@@ -121,12 +121,15 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 				<li class="first"><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="account/account") {echo "active";} ?>" href="<?php echo $account; ?>"><i class="fa fa-user"></i><?php echo $text_account; ?></a></li>
 				<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/cart") {echo "active";} ?>" href="<?php echo $shopping_cart; ?>"><i class="fa fa-shopping-cart"></i><?php echo $text_shopping_cart; ?></a></li>
 				<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i><?php echo $text_checkout; ?></a></li>
-				<?php if (!$logged) { ?>
-				<?php echo $text_welcome; ?>
-				<?php } else { ?>
-				<?php echo $text_logged; ?>
-				<?php } ?>
 			</ul>
+			<ul class="links" style="float: right;padding: 0px 0px 0px 10px;">
+				<li><?php if (!$logged) { ?>
+						<?php echo $text_welcome; ?>
+						<?php } else { ?>
+						<?php echo $text_logged; ?>
+						<?php } ?>
+						</li>
+						</ul>
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
 			<?php if ($informations) { ?>
@@ -168,12 +171,16 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 								<li class="first"><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="account/account") {echo "active";} ?>" href="<?php echo $account; ?>"><i class="fa fa-user"></i><?php echo $text_account; ?></a></li>
 								<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/cart") {echo "active";} ?>" href="<?php echo $shopping_cart; ?>"><i class="fa fa-shopping-cart"></i><?php echo $text_shopping_cart; ?></a></li>
 								<li><a class="<?php if (isset($this->request->get['route']) && $this->request->get['route']=="checkout/checkout") {echo "active";} ?>" href="<?php echo $checkout; ?>"><i class="fa fa-check"></i><?php echo $text_checkout; ?></a></li>
-								<?php if (!$logged) { ?>
+
+							</ul>
+							<ul class="links" style="float: right;padding: 0px 0px 0px 10px;">
+								<li><?php if (!$logged) { ?>
 										<?php echo $text_welcome; ?>
 										<?php } else { ?>
 										<?php echo $text_logged; ?>
 										<?php } ?>
-							</ul>
+										</li>
+										</ul>
 							<div class="clear"></div>
 						</div>
 					</div>
