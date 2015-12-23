@@ -4,10 +4,11 @@
 *
 **************************/
 .fluid_container {
-	margin-bottom:165px;
+	margin-bottom:50px;
 	}
 .camera_pag {
 	overflow:hidden;
+	display: none;
 }
 .camera_wrap a,
 .camera_wrap img,
