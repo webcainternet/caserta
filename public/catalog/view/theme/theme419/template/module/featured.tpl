@@ -1,3 +1,11 @@
+<style type="text/css">
+.col-sm-3 {
+	width: 33.3333%;
+}
+.description {
+	display: none;
+}
+</style>
 <script type="text/javascript">
 	if ($('body').width() > 767) {
 		(function($){$.fn.equalHeights=function(minHeight,maxHeight){tallest=(minHeight)?minHeight:0;this.each(function(){if($(this).height()>tallest){tallest=$(this).height()}});if((maxHeight)&&tallest>maxHeight)tallest=maxHeight;return this.each(function(){$(this).height(tallest)})}})(jQuery)
@@ -8,13 +16,12 @@
 	};
 </script>
 <div class="box featured">
-  <div class="box-heading"><?php echo $heading_title; ?></div>
   <div class="box-content">
 	<div class="box-product">
 		<ul class="row">
 		  <?php $i=0; foreach ($products as $product) { $i++ ?>
 		  <?php 
-			   $perLine = 4;
+			   $perLine = 3;
 			   $spanLine = 3;
 			   $last_line = "";
 							$total = count($products);
