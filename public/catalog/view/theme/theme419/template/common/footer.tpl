@@ -7,13 +7,13 @@
 <footer>
 	<div class="container" style="border-top: solid 5px #519c87; padding-top: 30px;">
 		<div class="row">
-			<div class="col-sm-2">
+			<div class="col-sm-2" style="width: 16.666666666666664%;">
 				<img src="/image/data/logo.png" style="margin-top: 20px; max-width: 70%;">
 			</div>
 
 
 			<?php if ($informations) { ?>
-			<div class="col-sm-2">
+			<div class="col-sm-2" style="width: 16.666666666666664%;">
 				<h3><?php echo $text_information; ?></h3>
 				<ul>
 				<?php foreach ($informations as $information) { ?>
@@ -22,7 +22,7 @@
 				</ul>
 			</div>
 			<?php } ?>
-			<div class="col-sm-2">
+			<div class="col-sm-2" style="width: 16.666666666666664%;">
 				<h3><?php echo $text_service; ?></h3>
 				<ul>
 				<li><a href="<?php echo $contact; ?>"><?php echo $text_contact; ?></a></li>
@@ -30,7 +30,7 @@
 				<li><a href="<?php echo $sitemap; ?>"><?php echo $text_sitemap; ?></a></li>
 				</ul>
 			</div>
-			<div class="col-sm-2">
+			<div class="col-sm-2" style="width: 16.666666666666664%;">
 				<h3><?php echo $text_account; ?></h3>
 				<ul>
 				<li><a href="<?php echo $account; ?>"><?php echo $text_account; ?></a></li>
@@ -46,7 +46,7 @@
 				</ul>
 			</div> */ ?>
 
-			<div class="col-sm-4">
+			<div class="col-sm-4" style="width: 33.33333333333333%;">
 				<div class="footer_box social" style="padding-top: 10px;">
 					<h5>Aceitamos</h5>
 					<img style="margin-top: -10px;" src="/image/bandeiras.png">

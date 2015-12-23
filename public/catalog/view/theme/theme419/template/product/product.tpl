@@ -7,6 +7,12 @@
 	.col-sm-9 {
 		width: 100%;
 	}
+	.col-sm-4 {
+		width: 50%;
+	}
+	.col-sm-8 {
+		width: 50%;
+	}
 	.product-section {
 		display: none;
 	}
