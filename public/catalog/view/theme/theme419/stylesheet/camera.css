@@ -58,6 +58,7 @@
 	position: relative;
 	width: 100%;
 	z-index: 1;
+	max-height: 420px;
 }
 .camera_wrap:before, .camera_wrap:after {
 	box-sizing:inherit;
