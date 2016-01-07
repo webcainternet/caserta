@@ -129,6 +129,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 						<?php echo $text_logged; ?>
 						<?php } ?>
 						</li>
+						<li>Tel. 15 3011-0150</li>
 						</ul>
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
@@ -180,6 +181,7 @@ $('body').prepend('<iframe src="<?php echo $store; ?>" style="display: none;"></
 										<?php echo $text_logged; ?>
 										<?php } ?>
 										</li>
+										<li>Tel. 15 3011-0150</li>
 										</ul>
 							<div class="clear"></div>
 						</div>

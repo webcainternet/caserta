@@ -54,11 +54,14 @@ dwqdwq
 
 			<div class="col-sm-4" style="width: 33.33333333333333%;">
 				<div class="footer_box social" style="padding-top: 10px;">
-					<h5>Aceitamos</h5>
-					<img style="margin-top: -10px;" src="/image/bandeiras.png">
+					<h5 style="text-transform: uppercase; ">Aceitamos</h5>
+					<img style="text-transform: uppercase; margin-top: -10px;" src="/image/bandeiras.png">
 
-					<h5 style="margin-top: 10px; font-size: 12px;">Certificado de Segurança:</h5>
-					<img src="/image/selo-ssl.png">
+					<h5 style="margin-top: 10px; text-transform: uppercase;">Atendimento</h5>
+					contato@vivacaserta.com.br | 15 3011-0150
+
+					<h5 style="margin-top: 10px; text-transform: uppercase;">RTAIAR DECOR E-COMMERCE EIRELI - ME</h5>
+					CNPJ: 23.761.806/0001-06
 				</div>
 			</div>
 		</div>

@@ -109,7 +109,7 @@
 								</div>
 								<div class="cart-button">
 									<div class="cart">
-										<a title="<?php echo $button_cart; ?>" data-id="<?php echo $product['product_id']; ?>;" class="button addToCart-1 ">
+										<a title="<?php echo $button_cart; ?>" href="<?php echo $product['href']; ?>" class="button">
 											<!--<i class="fa fa-shopping-cart"></i>-->
 											<span><?php echo $button_cart; ?></span>
 										</a>
@@ -164,7 +164,7 @@
 					
 					<div class="cart-button">
 						<div class="cart">
-							<a title="<?php echo $button_cart; ?>" data-id="<?php echo $product['product_id']; ?>;" class="button addToCart">
+							<a title="<?php echo $button_cart; ?>" href="<?php echo $product['href']; ?>" class="button">
 								<span><?php echo $button_cart; ?></span>
 							</a>
 						</div>
