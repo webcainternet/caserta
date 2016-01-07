@@ -5,6 +5,9 @@
 .description {
 	display: none;
 }
+.quick-view-button {
+	display: none;
+}
 </style>
 <script type="text/javascript">
 	if ($('body').width() > 767) {

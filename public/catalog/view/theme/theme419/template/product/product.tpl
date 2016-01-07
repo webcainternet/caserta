@@ -1,5 +1,7 @@
 <?php echo $header; ?>
 
+<?php $text_qty = 'Escolha a quantidade'; ?>
+ 
 <style type="text/css">
 	.col-sm-3 {
 		display: none;
@@ -14,6 +16,9 @@
 		width: 50%;
 	}
 	.product-section {
+		display: none;
+	}
+	.extra-button {
 		display: none;
 	}
 </style>

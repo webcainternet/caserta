@@ -1,11 +1,17 @@
 <div class="clear"></div>
+
+<div style="background-color: #519c87; height: 70px;">
+dwqdwq
+</div>
+
 </div>
 </div>
 </div>
 <div class="clear"></div>
 </section>
+
 <footer>
-	<div class="container" style="border-top: solid 5px #519c87; padding-top: 30px;">
+	<div class="container" style="border-top: solid 5px #519c87; padding: 0px 0 0px;">
 		<div class="row">
 			<div class="col-sm-2" style="width: 16.666666666666664%;">
 				<img src="/image/data/logo.png" style="margin-top: 20px; max-width: 70%;">
