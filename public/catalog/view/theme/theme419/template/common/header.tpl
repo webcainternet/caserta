@@ -2,6 +2,7 @@
 <html dir="<?php echo $direction; ?>" lang="<?php echo $lang; ?>">
 <head>
 <meta charset="UTF-8" />
+<meta name="google-site-verification" content="Lbh4Va3XU1CXlrUBybKp5Qa1-AgDYsa9ZTnJw-hOOpU" />
 <title><?php echo $title; ?></title>
 <base href="<?php echo $base; ?>" />
 <?php /* <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , initial-scale=1.0"> */ ?>
