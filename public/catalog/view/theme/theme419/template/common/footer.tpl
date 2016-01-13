@@ -1,16 +1,45 @@
 <div class="clear"></div>
 
-<div style="background-color: #519c87; height: 70px;">
-dwqdwq
+<style type="text/css">
+	.dvnews {
+		float: left;
+		width: 50%;
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20px;
+		text-align: right;
+		padding: 30px 25px 0px 0px;
+	}
+	.dvnews2 {
+		float: left;
+		width: 50%;
+		color: #FFF;
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 20px;
+		padding: 20px 25px 0px 0px;
+	}
+</style>
+
+<div style="width: 1200px; margin: auto; margin-top: 30px;">
+	<div style="background-color: #519c87; height: 70px;">
+	
+	<div class="dvnews">Receba as novidades de nosso site</div>
+	<div class="dvnews2">
+		<input type="text" placeholder="Digite seu email" style="width: 330px;">
+		<input type="button" value="ENVIAR" style="border: 0px; height: 39px; width: 76px; background-color: #EEE; padding-bottom: 0px;">
+	</div>
+
+
+	</div>
 </div>
 
-</div>
-</div>
-</div>
-<div class="clear"></div>
 </section>
 
+
 <footer>
+
 	<div class="container" style="border-top: solid 5px #519c87; padding: 0px 0 0px;">
 		<div class="row">
 			<div class="col-sm-2" style="width: 16.666666666666664%;">

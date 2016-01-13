@@ -355,7 +355,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 			</div>
 			<div class="clear"></div>
 		<?php }?>
-			<div id="container">
+			<div id="container" style="padding: 45px 0 0px;">
 				<p id="back-top"> <a href="#top"><span></span></a> </p>
 				<div class="container">
 					<?php if (!empty($error)) { ?>
