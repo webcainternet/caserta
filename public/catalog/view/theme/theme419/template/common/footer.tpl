@@ -40,10 +40,10 @@
 
 <footer>
 
-	<div class="container" style="border-top: solid 5px #519c87; padding: 0px 0 0px;">
+	<div class="container" style="padding: 45px 0 0px;">
 		<div class="row">
 			<div class="col-sm-2" style="width: 16.666666666666664%;">
-				<img src="/image/data/logo.png" style="margin-top: 20px; max-width: 70%;">
+				<img src="/image/data/logo.png" style="margin-top: 20px; max-width: 85%;">
 			</div>
 
 

@@ -338,7 +338,7 @@ a#hidden {
 /* layout */
 #container {
 	text-align: left;
-	background:url(../image/bg.png) repeat left top #f7f6f7;
+	background: #f7f6f7;
 	padding:45px 0 70px;
 }
 /* header */
@@ -347,7 +347,7 @@ header {
 	position: relative;
 	color:#9d9d9d;
 	background-color: #FFFFFF;
-	/* background: url(../image/bg.png) repeat left top #f7f6f7; */
+	/* background:  #f7f6f7; */
 }
 header #logo a img {
 	vertical-align:top;
@@ -885,8 +885,8 @@ header .toprow {
     padding: 12px 0;
     margin-bottom: 27px;
     /* background-color: #fff; */
-    border-bottom: solid 2px #C65657;
-    background: url(../image/bg.png) repeat left top #f7f6f7;
+    border-bottom: solid 1px #C65657;
+    background:  #f7f6f7;
 }
 header .toprow-1 {
 	z-index:100;
