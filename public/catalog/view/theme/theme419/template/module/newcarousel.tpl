@@ -16,7 +16,7 @@
 			barDirection: 'leftToRight', 
 			barPosition: 'bottom',
 			easing: 'easeInOutExpo',
-			fx: 'random',
+			fx: 'simpleFade',
 			height: '420px',
 			minHeight: '90px',
 			hover: true,
