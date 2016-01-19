@@ -63,7 +63,7 @@ $_['error_postcode']         = 'Atenção: O CEP deve ter no mínimo 8 caractere
 $_['error_country']          = 'Atenção: Selecione um país!';
 $_['error_zone']             = 'Atenção: Selecione um estado!';
 $_['error_shipping']         = 'Atenção: É necessário escolher um método de entrega!';
-$_['error_no_shipping']      = 'Atenção: Não há opções de entrega disponíveis. Por favor, <a href="%s">contate-nos</a> para assistência!';
+$_['error_no_shipping']      = 'Atenção: Não há opções de entrega disponíveis. Por favor, <a href="%s">Contato</a> para assistência!';
 $_['error_profile_required'] = 'Atenção: Selecione a assinatura!';
 
 $_['text_trial']             = '%s a cada %s %s repetido por %s vez(es) para avaliação ';

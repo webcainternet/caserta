@@ -14,5 +14,5 @@ $_['text_cart']        = 'Meu Carrinho';
 $_['text_checkout']    = 'Finalizar Compra';
 $_['text_search']      = 'Buscar por Produtos';
 $_['text_information'] = 'Informações';
-$_['text_contact']     = 'Contate-nos';
+$_['text_contact']     = 'Contato';
 ?>

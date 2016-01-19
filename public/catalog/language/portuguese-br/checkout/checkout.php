@@ -92,9 +92,9 @@ $_['error_zone']                     = 'Atenção: Por favor, selecione um estad
 $_['error_agree']                    = 'Atenção: Você deve concordar com os %s!';
 $_['error_address']                  = 'Atenção: Você deve selecionar um endereço!';
 $_['error_shipping']                 = 'Atenção: Escolha uma forma de entrega!';
-$_['error_no_shipping']              = 'Atenção: Não há opções de entrega disponíveis. Por favor, <a href="%s">contate-nos</a> para assistência.';
+$_['error_no_shipping']              = 'Atenção: Não há opções de entrega disponíveis. Por favor, <a href="%s">Contato</a> para assistência.';
 $_['error_payment']                  = 'Atenção: Escolha uma forma de pagamento!';
-$_['error_no_payment']               = 'Atenção: Não há opções de pagamento disponíveis. Por favor, <a href="%s">contate-nos</a> para assistência.';
+$_['error_no_payment']               = 'Atenção: Não há opções de pagamento disponíveis. Por favor, <a href="%s">Contato</a> para assistência.';
 
 $_['text_trial']                    = '%s a cada %s %s repetido por %s vez(es) para avaliação ';
 $_['text_recurring']                = '%s a cada %s %s';

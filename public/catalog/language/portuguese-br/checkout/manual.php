@@ -5,7 +5,7 @@ $_['text_success']      = 'O pedido foi recalculado com sucesso!';
 
 // Error
 $_['error_warning']     = 'Atenção: Preencha o formulário cuidadosamente para evitar erros!';
-$_['error_permission']  = 'Atenção: Você não tem permissão para acessar esta página, por favor, contate-nos para assistência.';
+$_['error_permission']  = 'Atenção: Você não tem permissão para acessar esta página, por favor, Contato para assistência.';
 $_['error_customer']    = 'Atenção: Não é possível encontrar o comprador selecionado!';
 $_['error_email']       = 'Atenção: O endereço de e-mail não é válido!';
 $_['error_postcode']    = 'Atenção: O CEP deve ter no mínimo 8 caracteres!';

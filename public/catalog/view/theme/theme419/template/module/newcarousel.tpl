@@ -1,11 +1,11 @@
 <script>
 	jQuery(function(){
 		jQuery('#camera_wrap_<?php echo $module; ?>').camera({
-			fx: 'stampede',
-			navigation: false,
+			fx: 'simpleFade',
+			navigation: true,
 			playPause: false,
-			thumbnails: true,
-			navigationHover: false,
+			thumbnails: false,
+			navigationHover: true,
 			barPosition: 'top',
 			loader: false,
 			time: 3000,

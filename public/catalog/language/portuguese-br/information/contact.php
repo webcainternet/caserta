@@ -1,6 +1,6 @@
 <?php
 // Heading
-$_['heading_title']  = 'Contate-nos';
+$_['heading_title']  = 'Contato';
 
 // Text 
 $_['text_location']  = 'Onde Estamos';
