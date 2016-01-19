@@ -6,7 +6,6 @@
 		width: 50%;
 		color: #FFF;
 		text-transform: uppercase;
-		font-weight: bold;
 		font-size: 20px;
 		text-align: right;
 		padding: 30px 25px 0px 0px;
