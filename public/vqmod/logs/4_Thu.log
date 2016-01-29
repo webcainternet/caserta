@@ -1,0 +1,28 @@
+---------- Date: 2016-01-07 09:56:06 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=32
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/caserta/public/vqmod/xml/vqmod_add2cart_go2cart_155x-156x.xml
+   id        : Add 2 Cart Go 2 Cart
+   version   : 1.0
+   vqmver    : 2.3.2
+   author    : www.best-byte.com
+
+File Name    : catalog/view/theme/*/template/common/header.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <script type="text/javascript" src="catalog/view/javascript/common.js"></script>
+----------------------------------------------------------------------
+
+
+---------- Date: 2016-01-07 09:57:27 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/product&amp;product_id=32
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/caserta/public/vqmod/xml/vqmod_add2cart_go2cart_155x-156x.xml
+   id        : Add 2 Cart Go 2 Cart
+   version   : 1.0
+   vqmver    : 2.3.2
+   author    : www.best-byte.com
+
+File Name    : catalog/view/theme/theme419/template/common/header.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <script type="text/javascript" src="catalog/view/javascript/common.js"></script>
+----------------------------------------------------------------------
+
+

@@ -5,6 +5,63 @@ class ControllerProductProduct extends Controller {
 	public function index() {
 		$this->language->load('product/product');
 
+
+		// Início simular frete página produto VQmod Ariel Gonçalves
+		$this->language->load('checkout/cart');
+		$this->data['text_shipping_detail'] = $this->language->get('text_shipping_detail');		
+		$this->data['entry_country'] = $this->language->get('entry_country');		
+		$this->data['entry_zone'] = $this->language->get('entry_zone');
+		$this->data['entry_postcode'] = $this->language->get('entry_postcode');
+		$this->data['button_quote'] = $this->language->get('button_quote');
+		$this->data['text_shipping_method'] = $this->language->get('text_shipping_method');
+		$this->data['action'] = $this->url->link('checkout/cart'); 
+		$this->data['button_shipping'] = $this->language->get('button_shipping');
+		$this->data['text_none'] = $this->language->get('text_none');
+
+		if ((isset($this->request->get['product_id']))and(!empty($this->request->get['product_id']))) {
+		$this->data['checar_envio_produto'] = $this->checar_envio_produto($this->request->get['product_id']);
+		}
+		else{
+		$this->data['checar_envio_produto'] = '0';		
+		}
+
+		if (isset($this->request->post['country_id'])) {
+			$this->data['country_id'] = $this->request->post['country_id'];			
+		} elseif (isset($this->session->data['shipping_country_id'])) {
+			$this->data['country_id'] = $this->session->data['shipping_country_id'];		  	
+		} else {
+			$this->data['country_id'] = $this->config->get('config_country_id');
+		}
+
+		$this->load->model('localisation/country');
+
+		$this->data['countries'] = $this->model_localisation_country->getCountries();
+
+		if (isset($this->request->post['zone_id'])) {
+			$this->data['zone_id'] = $this->request->post['zone_id'];			
+		} elseif (isset($this->session->data['shipping_zone_id'])) {
+			$this->data['zone_id'] = $this->session->data['shipping_zone_id'];		
+		} else {
+			$this->data['zone_id'] = '';
+		}
+
+		if (isset($this->request->post['shipping_method'])) {
+			$this->data['shipping_method'] = $this->request->post['shipping_method'];			
+		} elseif (isset($this->session->data['shipping_method'])) {
+			$this->data['shipping_method'] = $this->session->data['shipping_method']['code']; 
+		} else {
+			$this->data['shipping_method'] = '';
+		}
+
+		if (isset($this->request->post['postcode'])) {
+			$this->data['postcode'] = $this->request->post['postcode'];			
+		} elseif (isset($this->session->data['shipping_postcode'])) {
+			$this->data['postcode'] = $this->session->data['shipping_postcode'];				
+		} else {
+			$this->data['postcode'] = '';
+		}		
+		// Fim simular frete página produto VQmod Ariel Gonçalves
+		
 		$this->data['breadcrumbs'] = array();
 
 		$this->data['breadcrumbs'][] = array(
@@ -573,6 +630,12 @@ class ControllerProductProduct extends Controller {
 		}
 	}
 
+
+	private function checar_envio_produto($product_id) {
+		$checar_envio = $this->db->query('SELECT shipping FROM `' . DB_PREFIX . 'product` WHERE `product_id` = "'.(int)$product_id.'"');
+		return $checar_envio->row['shipping'];
+	    }
+		
 	public function review() {
 		$this->language->load('product/product');
 

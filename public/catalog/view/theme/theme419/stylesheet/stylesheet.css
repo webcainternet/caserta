@@ -3681,3 +3681,12 @@ table.radio {
 .zoomContainer {
 z-index:8;
 }
+.wishlist {
+	display: none;
+}
+.compare {
+	display: none;
+}
+.you-will-be-registered {
+	display: none;
+}

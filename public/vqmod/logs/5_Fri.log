@@ -1,0 +1,14 @@
+---------- Date: 2016-01-29 15:22:57 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=account/register
+MOD DETAILS:
+   modFile   : /Users/fernandomendes/github/caserta/public/vqmod/xml/Inove-Design-Busca-CEP.xml
+   id        : <a style="text-decoration:none" href="http://www.inovedesign.net">InoveDesign.net - Soluções Web</a>
+   version   : 1.0
+   vqmver    : 2.4.0
+   author    : <a href="http://www.inovedesign.net">Paulo Siquiero - inovedesign.net</a>
+
+File Name    : catalog/view/theme/*/template/account/register.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <td><span class="required">*</span> <?php echo $entry_address_1; ?></td>
+----------------------------------------------------------------------
+
+
