@@ -141,7 +141,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 						<?php echo $text_logged; ?>
 						<?php } ?>
 						</li>
-						<li>Tel. 15 3011-0150</li>
+						<li><img src="/image/phone.png" height="15" style="margin-right: 5px;">15 3011-0150</li>
 						</ul>
 			<?php echo $language; ?>
 			<?php echo $currency; ?>
@@ -193,7 +193,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 										<?php echo $text_logged; ?>
 										<?php } ?>
 										</li>
-										<li>Tel. 15 3011-0150</li>
+										<li><img src="/image/phone.png" height="15" style="margin-right: 5px;">15 3011-0150</li>
 										</ul>
 							<div class="clear"></div>
 						</div>
