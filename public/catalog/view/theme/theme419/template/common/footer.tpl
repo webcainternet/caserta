@@ -26,8 +26,8 @@
 	
 	<div class="dvnews">Receba as novidades de nosso site</div>
 	<div class="dvnews2">
-		<input type="text" placeholder="Digite seu email" style="width: 330px; height: 38px;">
-		<input type="button" value="ENVIAR" style="border: 0px; height: 38px; width: 76px; background-color: #EEE; padding-bottom: 0px;">
+		<input type="text" name="email" id="email" placeholder="Digite seu email" style="width: 330px; height: 38px;">
+		<input type="button" value="ENVIAR" onclick="javascript: emailadd();" style="border: 0px; height: 38px; width: 76px; background-color: #EEE; padding-bottom: 0px;">
 	</div>
 
 
@@ -36,6 +36,25 @@
 
 </section>
 
+<script type="text/javascript">
+  function emailadd() {
+  	//Get
+    var bla = $('#email').val();
+
+    if (bla == '') {
+    	alert('Digite o email');
+    	document.getElementById('email').focus();
+    } else {
+	    $.ajax({url: "/emailadd.php?email="+bla, success: function(result){
+	        //$("#newsajax").append(result);
+	        //alert(result);
+	        alert(result);
+	        $('#email').val('');
+	    }});
+    }
+	
+  }
+</script>
 
 <footer>
 
