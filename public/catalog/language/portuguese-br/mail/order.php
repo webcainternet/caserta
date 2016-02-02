@@ -25,13 +25,13 @@ $_['text_new_order_total']      = 'Total do Pedido';
 $_['text_new_total']            = 'Total';	
 $_['text_new_download']         = 'Assim que seu pagamento for confirmado você poderá clicar no link abaixo para acessar os produtos para download:';
 $_['text_new_comment']          = 'Os comentários para seu pedido são:';
-$_['text_new_footer']           = 'Caso tenha alguma dúvida responda este e-mail.';
-$_['text_new_powered']          = 'Criado com <a href="http://www.opencart.com">OpenCart</a>.';
+$_['text_new_footer']           = 'Caso tenha alguma dúvida, responda este e-mail.';
+$_['text_new_powered']          = '';
 $_['text_update_subject']       = '%s - Atualização do Pedido %s';
 $_['text_update_order']         = 'Pedido Nº:';
 $_['text_update_date_added']    = 'Atualizado em:';
 $_['text_update_order_status']  = 'Seu pedido foi atualizado para a seguinte situação:';
 $_['text_update_comment']       = 'Os comentários para seu pedido são:';
 $_['text_update_link']          = 'Para acompanhar o andamento do seu pedido, clique no link abaixo:';
-$_['text_update_footer']        = 'Caso tenha alguma dúvida responda este e-mail.';
+$_['text_update_footer']        = 'Caso tenha alguma dúvida, responda este e-mail.';
 ?>
