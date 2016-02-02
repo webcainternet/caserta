@@ -1,6 +1,6 @@
 <div class="simplecheckout-block" id="simplecheckout_customer" <?php echo $hide ? 'data-hide="true"' : '' ?> <?php echo $display_error && $has_error ? 'data-error="true"' : '' ?>>
   <?php if ($display_header || $display_login) { ?>
-  <div class="checkout-heading"><span><?php echo $text_checkout_customer ?></span><?php if ($display_login) { ?><span class="checkout-heading-button"><a href="javascript:void(0)" data-onclick="openLoginBox"><?php echo $text_checkout_customer_login ?></a></span><?php } ?></div>
+  <div class="checkout-heading"><span><?php echo $text_checkout_customer ?></span><?php if ($display_login) { ?><br><span class="checkout-heading-button"><a href="javascript:void(0)" data-onclick="openLoginBox" style="color: #C75758;"><?php echo $text_checkout_customer_login ?></a></span><?php } ?></div>
   <?php } ?>
   <div class="simplecheckout-block-content">
     <?php if ($display_registered) { ?>
