@@ -2,7 +2,7 @@
 <?php
 $simple_page = 'simplecheckout';
 $heading_title .= $display_weight ? '&nbsp;(<span id="weight">'. $weight . '</span>)' : '';
-include $simple_header;
+//include $simple_header;
 ?>
 <style>
     <?php if ($left_column_width) { ?>
