@@ -197,11 +197,11 @@
 							<?php } ?>
 						</div>
 					</div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div class="form-group">
+
+
+
+
+					<div class="form-group" style="display: none;">
 						<label class="control-label col-sm-5" ><span class="required">*</span> <?php echo $entry_country; ?></label>
 						<div class="controls col-sm-7">
 							<select name="country_id">
@@ -219,6 +219,7 @@
 							<?php } ?>
 						</div>
 					</div>
+
 				</td>
 			</tr>
 			<tr>
