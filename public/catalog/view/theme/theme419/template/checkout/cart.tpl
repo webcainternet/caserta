@@ -2,7 +2,7 @@
 
 <style type="text/css">	
 table.radio tbody td {
-    width: 0px;
+    width: 0px !important;
 }
 </style>
 
