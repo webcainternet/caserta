@@ -4,7 +4,7 @@ $simple_page = 'simplecheckout';
 $heading_title .= $display_weight ? '&nbsp;(<span id="weight">'. $weight . '</span>)' : '';
 include $simple_header;
 ?>
-Faça o login em sua conta ou realize um novo cadastro preenchendo os campos abaixo. Se tudo estiver correto, finalize seu pedido.<br>&nbsp;
+<div style="font-size: 14px; margin-bottom: 10px;">Faça o login em sua conta ou realize um novo cadastro preenchendo os campos abaixo. Se tudo estiver correto, finalize seu pedido.</div>
 <style>
     <?php if ($left_column_width) { ?>
         .simplecheckout-left-column {
