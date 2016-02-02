@@ -234,8 +234,8 @@
 	</table>
   </div>
 	<div class="buttons">
-	<div class="right"><a href="<?php echo $checkout; ?>" class="button-cont-right"><?php echo $button_checkout; ?><i class="fa fa-check"></i></a></div>
-	<div class="center"><a href="<?php echo $continue; ?>" class="button-cont-right"><?php echo $button_shopping; ?><i class="fa fa-arrow-circle-right"></i></a></div>
+	<div class="right" style="background-color: white; padding: 10px 0px 10px 15px; border: solid 1px #C75758; border-radius: 5px;"><a href="<?php echo $checkout; ?>" class="button-cont-right" style="font-size: 14px;"><?php echo $button_checkout; ?><i class="fa fa-check"></i></a></div>
+	<div class="center" style="background-color: white; padding: 10px 0px 10px 15px; border: solid 1px #C75758; border-radius: 5px;"><a href="<?php echo $continue; ?>" class="button-cont-right" style="font-size: 14px;"><?php echo $button_shopping; ?><i class="fa fa-arrow-circle-right"></i></a></div>
   </div>
   </div>
   <?php echo $content_bottom; ?></div>
