@@ -86,6 +86,7 @@
 		<h2><?php echo $text_your_address; ?></h2>
 		<div class="content">
 		  <table class="form">
+			<!-- 
 			<tr>
 			
 				<td>
@@ -96,7 +97,7 @@
 						</div>
 					</div>
 				</td>
-			</tr>
+			</tr> -->
 			<tr style="display: <?php echo (count($customer_groups) > 1 ? 'table-row' : 'none'); ?>;">
 				<td>
 					<div class="form-group">
@@ -121,6 +122,7 @@
 					</div>
 				</td>
 			</tr>        
+			<?php /*
 			<tr id="company-id-display">
 				<td>
 					<div class="form-group">
@@ -134,6 +136,7 @@
 					</div>
 				</td>
 			</tr>
+			*/
 			<tr id="tax-id-display">
 				<td>
 					<div class="form-group">
