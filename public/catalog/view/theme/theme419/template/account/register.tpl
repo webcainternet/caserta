@@ -136,7 +136,7 @@
 					</div>
 				</td>
 			</tr>
-			*/
+			*/ ?>
 			<tr id="tax-id-display">
 				<td>
 					<div class="form-group">
