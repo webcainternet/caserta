@@ -183,10 +183,7 @@
 		</div>
 
 		<div class="form-group">
-			<label class="control-label col-sm-5" ><span class="required">*</span> <?php echo $entry_zone; ?></label>
-			<div class="controls col-sm-7">
-				<select name="zone_id"><option value="440">Acre</option></select>
-			</div>
+			
 		</div>
 	</div>
 	  <table class="form-horizontal" >
