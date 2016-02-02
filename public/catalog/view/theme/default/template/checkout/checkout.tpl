@@ -6,6 +6,7 @@
     <?php } ?>
   </div>
   <h1><?php echo $heading_title; ?></h1>
+  <div>Faça o login em sua conta ou realize um novo cadastro preenchendo os campos abaixo. Se tudo estiver correto, finalize seu pedido.</div>
   <div class="checkout">
     <div id="checkout">
       <div class="checkout-heading"><?php echo $text_checkout_option; ?></div>
