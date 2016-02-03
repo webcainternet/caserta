@@ -1,3 +1,6 @@
+<?php header("Location: /index.php?route=checkout/simplecheckout"); exit; ?>
+
+
 <?php echo $header; ?>
 
 <style type="text/css">	
