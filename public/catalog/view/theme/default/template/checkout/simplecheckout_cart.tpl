@@ -8,7 +8,7 @@
 <?php if ($error_warning) { ?>
     <div class="simplecheckout-warning-block"><?php echo $error_warning; ?></div>
 <?php } ?>
-    <span class="inputs buttons"><a href="/" class="button btn-primary button_oc btn"><span>Continuar comprando</span></a></span>
+    <span class="inputs buttons" style="float: right;"><a href="/" class="button btn-primary button_oc btn"><span style="padding: 0px 15px;">Continuar comprando</span></a></span>
     <table class="simplecheckout-cart">
         <colgroup>
             <col class="image">
