@@ -1825,7 +1825,6 @@ h1.style-1 {
 	padding-bottom: 4px;
 	padding-left: 14px;
 	padding-top: 4px;
-	text-transform:capitalize;
 	font-size:17px;
 	font-weight:bold;
 	color: #C75758;
@@ -1840,7 +1839,6 @@ h1.style-1 {
 }
 .sitemap-info ul li a {
 	text-decoration: none;
-	text-transform:capitalize;
 	font-size:14px;
 	font-weight:400;
 }
