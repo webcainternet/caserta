@@ -3,7 +3,7 @@
 <style type="text/css">
 	.dvnews {
 		float: left;
-		width: 50%;
+		width: 54%;
 		color: #FFF;
 		text-transform: uppercase;
 		font-size: 20px;
@@ -12,7 +12,7 @@
 	}
 	.dvnews2 {
 		float: left;
-		width: 50%;
+		width: 46%;
 		color: #FFF;
 		text-transform: uppercase;
 		font-weight: bold;
@@ -27,7 +27,7 @@
 	<div class="dvnews">Receba as novidades e promoções da Caserta</div>
 	<div class="dvnews2">
 		<input type="text" name="email" id="email" placeholder="Digite seu email" style="width: 330px; height: 38px;">
-		<input type="button" value="ENVIAR" onclick="javascript: emailadd();" style="border: 0px; height: 38px; width: 76px; background-color: #EEE; padding-bottom: 0px; margin-left: 5px;">
+		<input type="button" value="ENVIAR" onclick="javascript: emailadd();" style="border: 0px; height: 38px; width: 76px; background-color: #EEE; padding-bottom: 0px; margin-left: 7px;">
 	</div>
 
 
