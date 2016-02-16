@@ -55,7 +55,7 @@
 							<?php if ($error_captcha) { ?>
 							<span class="error help-block"><?php echo $error_captcha; ?></span>
 							<?php } ?>
-							<div class="buttons"><a onclick="$('#contact').submit();" class="button"><span><?php echo $button_continue; ?></span></a></div>
+							<div class="buttons"><a onclick="$('#contact').submit();" class="button"><span>Enviar</span></a></div>
 						</div>
 					</div>
 				</div>
