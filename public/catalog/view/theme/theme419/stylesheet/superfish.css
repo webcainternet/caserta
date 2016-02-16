@@ -20,7 +20,7 @@ ul.sf-menu > li {
 	z-index: 10;
 	position:relative;
 	border-radius:0;
-	padding:25px 16px;
+	padding:25px 17.5px;
 	background:url(../image/sep-1.png) no-repeat left center;
 	}
 ul.sf-menu > li > a {

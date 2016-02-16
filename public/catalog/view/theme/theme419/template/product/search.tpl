@@ -7,7 +7,7 @@
 	<?php } ?>
   </div>
   <h1><?php echo $heading_title; ?></h1>
-  <div class="box-container">
+  <div class="box-container" style="display: none;">
 	  <b style=" padding-bottom:7px; display:block;"> <?php echo $text_critea; ?></b>
 	   <div class="content">
 	<div>
