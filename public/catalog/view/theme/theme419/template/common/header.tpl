@@ -5,8 +5,8 @@
 <meta name="google-site-verification" content="Lbh4Va3XU1CXlrUBybKp5Qa1-AgDYsa9ZTnJw-hOOpU" />
 <title><?php echo $title; ?></title>
 <base href="<?php echo $base; ?>" />
-<?php /* <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , initial-scale=1.0"> */ ?>
-<meta name="viewport" content="width=1260">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, , initial-scale=1.0">
+<?php /* <meta name="viewport" content="width=1260">  */ ?>
 <?php if ($description) { ?>
 <meta name="description" content="<?php echo $description; ?>" />
 <?php } ?>
