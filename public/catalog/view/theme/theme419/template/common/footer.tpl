@@ -24,10 +24,10 @@
 <div style="width: 1200px; margin: auto; margin-top: 30px;">
 	<div style="background-color: #519c87; height: 75px;">
 	
-	<div class="dvnews">Receba as novidades de nosso site</div>
+	<div class="dvnews">Receba as novidades e promoções da Caserta</div>
 	<div class="dvnews2">
 		<input type="text" name="email" id="email" placeholder="Digite seu email" style="width: 330px; height: 38px;">
-		<input type="button" value="ENVIAR" onclick="javascript: emailadd();" style="border: 0px; height: 38px; width: 76px; background-color: #EEE; padding-bottom: 0px;">
+		<input type="button" value="ENVIAR" onclick="javascript: emailadd();" style="border: 0px; height: 38px; width: 76px; background-color: #EEE; padding-bottom: 0px; margin-left: 5px;">
 	</div>
 
 
