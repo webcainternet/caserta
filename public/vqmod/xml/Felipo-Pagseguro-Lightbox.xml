@@ -100,7 +100,7 @@ if (!PagSeguroLightbox){
 
 		<operation info="">
 			<search position="replace">
-				<![CDATA[  Confirmar e ir para o PagSeguro
+				<![CDATA[  finalizar compra
 ]]>
 			</search>
 			<add>
