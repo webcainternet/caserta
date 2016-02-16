@@ -537,14 +537,14 @@ $('#button-cart').bind('click', function() {
 			if (json['success']) {
 				$('#notification').html('<div class="success" style="display: none;">' + json['success'] + '<span><i class="fa fa-times-circle"></i></span></div>');
 					
-				$('.success').fadeIn('slow');
+				// $('.success').fadeIn('slow');
 					
 				$('#cart-total').html(json['total']);
 				$('#cart-total2').html(json['total']);
 				$('#cart').load('index.php?route=module/cart #cart > *');
 				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
 			}	
-			setTimeout(function() {$('.success').fadeOut(1000)},3000);
+			// setTimeout(function() {$('.success').fadeOut(1000)},3000);
 			window.location='index.php?route=checkout/cart';
 		}
 	});
