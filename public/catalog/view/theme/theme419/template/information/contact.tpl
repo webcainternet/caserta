@@ -30,7 +30,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-sm-5" >E-Mail: </label>
+						<label class="control-label col-sm-5" >E-mail: </label>
 						<div class="controls col-sm-7">
 							<input  type="text" name="email" value="<?php echo $email; ?>" />
 							<?php if ($error_email) { ?>
