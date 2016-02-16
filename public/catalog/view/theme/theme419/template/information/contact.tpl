@@ -1,4 +1,9 @@
 <?php echo $header; ?>
+<style type="text/css">
+.col-sm-6 {
+    width: 100%;
+}
+</style>
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
@@ -11,29 +16,12 @@
 	<h2 style="display:none"><?php echo $text_location; ?></h2>
 	<div class="contact-info">
 		<div class="content row">
-			<div class="map-left col-sm-6">      
-				<div class="contact-box"><i class="fa fa-home"></i><b><?php echo $text_address; ?></b>
-					<?php echo $address; ?>
-				</div>
-				<div class="contact-box">
-					<?php if ($telephone) { ?>
-					<i class="fa fa-phone"></i><b><?php echo $text_telephone; ?></b>
-					<?php echo $telephone; ?>
-					<?php } ?>
-				</div>
-				<div class="contact-box">
-					<?php if ($fax) { ?>
-					<i class="fa fa-phone"></i><b><?php echo $text_fax; ?></b>
-					<?php echo $fax; ?>
-					<?php } ?>
-				</div>
-			</div>
 			<div class="map-content col-sm-6">         
 				
 				<div class="content contact-f form-horizontal">
 					<!--<h2><?php echo $text_contact; ?></h2>-->
 					<div class="form-group">
-						<label class="control-label col-sm-5" ><?php echo $entry_name; ?></label>
+						<label class="control-label col-sm-5" >Nome: </label>
 						<div class="col-sm-7">
 							<input  type="text" name="name" value="<?php echo $name; ?>" />
 							<?php if ($error_name) { ?>
@@ -42,7 +30,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="control-label col-sm-5" ><?php echo $entry_email; ?></label>
+						<label class="control-label col-sm-5" >E-Mail: </label>
 						<div class="controls col-sm-7">
 							<input  type="text" name="email" value="<?php echo $email; ?>" />
 							<?php if ($error_email) { ?>
