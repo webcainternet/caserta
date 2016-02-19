@@ -897,13 +897,13 @@
 			$(pagination).append('<ul class="camera_pag_ul" />');
 			var li;
 			for (li = 0; li < amountSlide; li++){
-				$('.camera_pag_ul',wrap).append('<li class="pag_nav_'+li+'" style="position:relative; z-index:1002"><span><span>'+li+'</span></span></li>');
+				$('.camera_pag_ul',wrap).append('<li class="pag_nav_'+li+'" style="position:relative; z-index:1002"><div class="divquadradinho"></div></li>');
 			}
 			
 		}
 			
 	
-	
+	/*
 		if($(thumbs).length) {
 			var thumbUrl;
 			if(!$(pagination).length) {
@@ -935,7 +935,7 @@
 		} else if(!$(thumbs).length && $(pagination).length) {
 			wrap.css({marginBottom:$(pagination).outerHeight()});
 		}
-
+*/
 	
 		var firstPos = true;
 

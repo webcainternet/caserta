@@ -4,7 +4,7 @@
 			fx: 'simpleFade',
 			navigation: true,
 			playPause: false,
-			thumbnails: false,
+			thumbnails: true,
 			navigationHover: true,
 			barPosition: 'top',
 			loader: false,

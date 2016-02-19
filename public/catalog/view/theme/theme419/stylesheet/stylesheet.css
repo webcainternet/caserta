@@ -3690,3 +3690,16 @@ z-index:8;
 .zoomContainer {
 	display: none;
 }
+
+
+
+.divquadradinho {
+	margin-top: 15px;
+	width: 15px;
+	height: 15px;
+	background-color: #F7F6F7;
+}
+
+.cameracurrent > .divquadradinho {
+	background-color: #519C87 !important;
+}
