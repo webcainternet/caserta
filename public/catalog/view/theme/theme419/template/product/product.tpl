@@ -23,6 +23,12 @@
 	}
 </style>
 
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#cepcampo").mask("99999-999");
+});
+</script>
+
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
 	<div class="breadcrumb">

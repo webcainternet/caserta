@@ -68,6 +68,8 @@
 <script src="catalog/view/theme/<?php echo $this->config->get('config_template');?>/js/sl/camera.js"></script>
 <!-- bx-slider -->
 <script src="catalog/view/theme/<?php echo $this->config->get('config_template');?>/js/bxslider/jquery.bxslider.js"></script>
+<!-- mascara -->
+<script src="/catalog/view/javascript/jquery/jquery.maskedinput.min.js"></script>
 <!-- photo swipe -->
 <script src="catalog/view/theme/<?php echo $this->config->get('config_template');?>/js/photo-swipe/klass.min.js"></script>
 <script src="catalog/view/theme/<?php echo $this->config->get('config_template');?>/js/photo-swipe/code.photoswipe.jquery-3.0.5.js"></script>
