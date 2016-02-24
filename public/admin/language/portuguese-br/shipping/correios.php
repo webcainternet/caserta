@@ -39,7 +39,7 @@ $_['entry_declarar_valor']		= 'Declarar valor:<br /><span class="help">É o serv
 $_['entry_adicional']   		= 'Valor adicional (%):<br /><span class="help">Adicional somado ao valor final do frete. Não aplicável ao SEDEX a Cobrar.</span>';
 $_['entry_servicos']   			= 'Serviços:<br /><span class="help">Habilite os serviços que deseja usar em sua loja.</span>';
 $_['entry_prazo_adicional']   	= 'Prazo de entrega adicional (em dias):<br /><span class="help">Prazo de entrega adicional somado ao dos Correios. Não aplicável ao SEDEX 10 e SEDEX Hoje.</span>';
-$_['entry_contrato']    		= 'Contrato com os Correios:<br/><span class="help">Código administrativo e a senha para acesso aos serviços com contrato.</span>';
+$_['entry_contrato']    		= 'Contrato com os Correios:<br/><span class="help">Código administrativo e a Senha aos serviços com contrato.</span>';
 $_['entry_contrato_codigo']   	= 'Código:';
 $_['entry_contrato_senha']    	= 'Senha:';
 

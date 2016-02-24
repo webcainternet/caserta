@@ -6,7 +6,7 @@ $_['heading_title']     = 'Alterar Conta';
 $_['text_account']      = 'Painel de Afiliado';
 $_['text_edit']         = 'Alterar Conta';
 $_['text_your_details'] = 'Dados Pessoais';
-$_['text_your_address'] = 'Dados do Endereço';
+$_['text_your_address'] = 'Endereço';
 $_['text_success']      = 'Sucesso: Sua conta foi atualizada!';
 
 // Entry

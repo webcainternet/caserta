@@ -5,7 +5,7 @@ $_['heading_title']     = 'Alterar Endereços';
 // Text
 $_['text_account']      = 'Minha Conta';
 $_['text_address_book'] = 'Endereços Cadastrados';
-$_['text_edit_address'] = 'Dados do Endereço';
+$_['text_edit_address'] = 'Endereço';
 $_['text_insert']       = 'O endereço foi cadastrado com sucesso!';
 $_['text_update']       = 'O endereço foi alterado com sucesso!';
 $_['text_delete']       = 'O endereço foi excluído com sucesso!';

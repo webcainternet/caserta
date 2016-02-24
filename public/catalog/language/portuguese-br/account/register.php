@@ -7,9 +7,9 @@ $_['text_account']         = 'Minha Conta';
 $_['text_register']        = 'Cadastrar';
 $_['text_account_already'] = 'Se você já se cadastrou acesse sua conta clicando <a href="%s">aqui</a>.';
 $_['text_your_details']    = 'Dados Pessoais';
-$_['text_your_address']    = 'Dados do Endereço';
-$_['text_newsletter']      = 'Informativo da Loja';
-$_['text_your_password']   = 'Senha para Acesso';
+$_['text_your_address']    = 'Endereço';
+$_['text_newsletter']      = 'Newsletter';
+$_['text_your_password']   = 'Senha';
 $_['text_agree']           = 'Li e aceito os <a class="colorbox" href="%s" alt="%s"><b>%s</b></a>';
 
 // Entry
@@ -28,7 +28,7 @@ $_['entry_postcode']       = 'CEP:';
 $_['entry_city']           = 'Cidade:';
 $_['entry_country']        = 'País:';
 $_['entry_zone']           = 'Estado:';
-$_['entry_newsletter']     = 'Assinar Informativo:';
+$_['entry_newsletter']     = 'Assinar Newsletter:';
 $_['entry_password']       = 'Senha:';
 $_['entry_confirm']        = 'Repetir Senha:';
 
