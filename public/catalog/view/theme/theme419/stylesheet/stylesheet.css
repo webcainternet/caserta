@@ -2862,6 +2862,9 @@ a.button-inf-left {
 	color:#7e7e7e;
 	vertical-align:top;
 }
+a.button-cont-right {
+	float: right;
+}
 a.button-back-left i,
 .button-back-left i, 
 .button-return-right-i i,
