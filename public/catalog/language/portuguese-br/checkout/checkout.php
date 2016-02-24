@@ -20,7 +20,7 @@ $_['text_register']                  = 'Cadastrar-se';
 $_['text_guest']                     = 'Finalizar sem se cadastrar';
 $_['text_register_account']          = 'Ao cadastrar-se e criar uma conta você poderá comprar mais rapidamente, saber a situação do pedido e acompanhar pedidos já realizados.';
 $_['text_forgotten']                 = 'Esqueceu sua senha?<br />Clique aqui para recuperar.';
-$_['text_your_details']              = 'Detalhes pessoais';
+$_['text_your_details']              = 'Dados Pessoais';
 $_['text_your_address']              = 'Dados do endereço';
 $_['text_your_password']             = 'Sua senha';
 $_['text_agree']                     = 'Li e concordo com os <a class="colorbox" href="%s" alt="%s"><b>%s</b></a>';

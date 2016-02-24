@@ -7,7 +7,7 @@ $_['text_account']              = 'Programa de Afiliados';
 $_['text_register']             = 'Cadastrar';
 $_['text_account_already']      = 'Se você já se cadastrou acesse sua conta clicando <a href="%s">aqui</a>.';
 $_['text_signup']               = 'Para criar uma conta de afiliado, preencha completamente o formulário abaixo:';
-$_['text_your_details']         = 'Detalhes Pessoais';
+$_['text_your_details']         = 'Dados Pessoais';
 $_['text_your_address']         = 'Dados do Endereço';
 $_['text_payment']              = 'Informações para Recebimento';
 $_['text_your_password']        = 'Senha para Acesso';

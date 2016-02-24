@@ -5,7 +5,7 @@ $_['heading_title']     = 'Minhas Informações';
 // Text
 $_['text_account']      = 'Minha Conta';
 $_['text_edit']         = 'Alterar Informações';
-$_['text_your_details'] = 'Detalhes Pessoais';
+$_['text_your_details'] = 'Dados Pessoais';
 $_['text_success']      = 'Sua conta foi alterada com sucesso!';
 
 // Entry
