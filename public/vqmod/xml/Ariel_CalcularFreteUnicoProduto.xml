@@ -82,8 +82,7 @@ $('#button-quote').on('click', function() {
 			}
 			
 			if (json['shipping_method']) {
-				html  = '<h2><?php echo $text_shipping_method; ?></h2>';
-				html += '<form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">';
+				html = '<form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data">';
 				html += '  <table class="radio">';
 				
 				for (i in json['shipping_method']) {
