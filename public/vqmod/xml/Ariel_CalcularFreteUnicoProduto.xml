@@ -34,10 +34,9 @@
       <table>
         <tr>
           <td><span id="postcode-required" class="required">*</span> <?php echo $entry_postcode; ?></td>
-          <td><input style="margin-left: 5px; width: 100px;" type="text" id="cepcampo" name="postcode" value="<?php echo $postcode; ?>" /></td>
+          <td><input style="margin-left: 5px; width: 100px;" type="text" id="cepcampo" name="postcode" value="<?php echo $postcode; ?>" /><input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" style="margin-left: 10px;" /></td>
         </tr>
       </table>
-      <input type="button" value="<?php echo $button_quote; ?>" id="button-quote" class="button" />
     </div>
 <script type="text/javascript"><!--
 $('#button-quote').on('click', function() {
