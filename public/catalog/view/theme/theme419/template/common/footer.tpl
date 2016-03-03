@@ -142,13 +142,11 @@ var google_remarketing_only = true;
 
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
+</div>
 
 <noscript>
 <div style="display:none;">
 <img height="0" width="0" style="border-style:none; display: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/926065789/?value=0&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-
-</div>
-
 </body></html>
