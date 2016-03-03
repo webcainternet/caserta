@@ -128,4 +128,23 @@
 </div>
 </div>
 </div>
+
+<!-- Código do Google para tag de remarketing -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 926065789;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+
+<noscript>
+<div style="display:none;">
+<img height="0" width="0" style="border-style:none; display: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/926065789/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
 </body></html>

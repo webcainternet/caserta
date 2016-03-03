@@ -149,19 +149,6 @@ src="https://www.facebook.com/tr?id=1064590290230263&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Facebook Pixel Code -->
 
-<!-- Código do Google para tag de remarketing -->
-<script type="text/javascript">
-/* <![CDATA[ */
-var google_conversion_id = 926065789;
-var google_custom_params = window.google_tag_params;
-var google_remarketing_only = true;
-/* ]]> */
-</script>
-
-<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-</script>
-
-
 <?php echo $google_analytics; ?>
 </head>
 <body class="<?php echo empty($this->request->get['route']) ? 'common-home' : str_replace('/', '-', $this->request->get['route']); ?>"><a id="hidden" href="<?php echo $base; ?>"></a>
