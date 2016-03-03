@@ -1569,6 +1569,7 @@ aside .box .box-content .box-product ul>li {
 .box.subcat {
 	border-bottom:0;
 	padding-bottom:0;
+    display: none;
 }
 .box-product.box-subcat {
 	margin-top:0 !important
