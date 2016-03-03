@@ -1,4 +1,17 @@
 <?php echo $header; ?>
+<style type="text/css">
+a.button-cont-right, a.button-back-left, a.button-inf-left {
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    padding-right: 0px;
+    color: #7e7e7e;
+    vertical-align: top;
+    position: absolute;
+    right: 45px;
+    bottom: 70px;
+}
+</style>
 <?php if ($success) { ?>
 <div class="col-sm-12"><div class="success"><?php echo $success; ?></div></div>
 <?php } ?>

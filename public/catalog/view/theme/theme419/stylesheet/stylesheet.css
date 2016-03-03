@@ -2614,6 +2614,7 @@ input#sub_category {
 	background-color:#fff;
 	padding:30px;
 	margin-bottom:30px;
+	min-height: 300px;
 }
 .login-content .heading {
 	overflow:hidden;
