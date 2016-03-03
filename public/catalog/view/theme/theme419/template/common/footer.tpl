@@ -129,6 +129,8 @@
 </div>
 </div>
 
+
+<div style="display: none;">
 <!-- Código do Google para tag de remarketing -->
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -146,5 +148,7 @@ var google_remarketing_only = true;
 <img height="0" width="0" style="border-style:none; display: none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/926065789/?value=0&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
+
+</div>
 
 </body></html>
