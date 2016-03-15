@@ -1,4 +1,102 @@
 <?php echo $header; ?>
+
+<div style="width: 100%;
+    float: left;
+    margin-top: -30px;
+    height: 150px;
+    ">
+    <div style="text-transform: uppercase;
+			    color: #519C87;
+			    font-size: 22px; margin: 15px 0px 20px 0px; text-align: center;">
+    	compra na caserta em é fácil, rápido e seguro. são apenas <span style="color: #C75758;">3 passos</span> e leva <span style="color: #C75758;">menos de 5 minutos</span>!
+    </div>
+
+	<div style="width: 33.33%; float: left; margin: 0px; padding: 0px;">
+		<div style="float: left; 
+					margin: 0px; 
+					padding: 0px; 
+					background-color: #C75758; 
+					border-radius: 50%; 
+					width: 70px; 
+					height: 70px; 
+					color: #FFF; 
+					text-align: center;
+					font-size: 42px;
+					padding-top: 22px;
+					border: solid 5px #FFF;
+		">1</div>
+
+		<div style="width: 55%;
+				    float: left;
+				    margin: 0px 10px;
+				    padding: 0px;
+				    color: #7e7e7e;
+				    text-align: center;
+				    font-size: 13px;
+				    margin-top: 8px;">
+			Ainda não tem cadastro no site?<br>
+			Sem problema! Preencha seus dados<br>
+			logo abaixo e siga para o passo 2
+		</div>
+	</div>
+
+	<div style="width: 33.33%; float: left; margin: 0px; padding: 0px;">
+		<div style="float: left; 
+					margin: 0px; 
+					padding: 0px; 
+					background-color: #C75758; 
+					border-radius: 50%; 
+					width: 70px; 
+					height: 70px; 
+					color: #FFF; 
+					text-align: center;
+					font-size: 42px;
+					padding-top: 22px;
+					border: solid 5px #FFF;
+		">2</div>
+
+		<div style="width: 55%;
+				    float: left;
+				    margin: 0px 10px;
+				    padding: 0px;
+				    color: #7e7e7e;
+				    text-align: center;
+				    font-size: 13px;
+				    margin-top: 8px;">
+			Agora você já se identificou,<br>
+			é hora de escolher a forma de envio:<br>
+			PAC ou SEDEX? Você decide
+		</div>
+	</div>
+
+	<div style="width: 33.33%; float: left; margin: 0px; padding: 0px;">
+		<div style="float: left; 
+					margin: 0px; 
+					padding: 0px; 
+					background-color: #C75758; 
+					border-radius: 50%; 
+					width: 70px; 
+					height: 70px; 
+					color: #FFF; 
+					text-align: center;
+					font-size: 42px;
+					padding-top: 22px;
+					border: solid 5px #FFF;
+		">3</div>
+
+		<div style="width: 70%;
+				    float: left;
+				    margin: 0px 10px;
+				    padding: 0px;
+				    color: #7e7e7e;
+				    text-align: center;
+				    font-size: 13px;
+				    margin-top: 8px;">
+			Tudo certo? Então clique em "Finalizar pedido"<br>e efetue o pagamento na página do PagSeguro.<br>Você será redirecionado automaticamente :)
+		</div>
+	</div>
+</div>
+
 <?php echo $column_left; ?>
 		<div class="<?php if ($column_left or $column_right) { ?>col-sm-9<?php } ?> <?php if (!$column_left & !$column_left) { ?>col-sm-12  <?php } ?> <?php if ($column_left & $column_right) { ?>col-sm-6<?php } ?>" id="content"><?php echo $content_top; ?>
   <div class="breadcrumb">
