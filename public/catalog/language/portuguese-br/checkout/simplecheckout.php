@@ -2,7 +2,7 @@
 // Heading 
 $_['heading_title']                  = 'Finalizar a compra';
 
-$_['button_login']                   = 'Logar';
+$_['button_login']                   = 'Entrar';
 $_['button_order']                   = 'Finalizar pedido';
 $_['button_save_changes']            = 'Salvar mudanças';
 $_['button_prev']                    = 'Previous step';
