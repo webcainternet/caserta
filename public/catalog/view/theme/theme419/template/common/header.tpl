@@ -383,7 +383,7 @@ src="https://www.facebook.com/tr?id=1064590290230263&ev=PageView&noscript=1"
 			</div>
 			<div class="clear"></div>
 		<?php }?>
-			<div id="container" style="padding: 45px 0 0px;">
+			<div id="container" style="padding: 30px 0 0px;">
 				<p id="back-top"> <a href="#top"><span></span></a> </p>
 				<div class="container">
 					<?php if (!empty($error)) { ?>
