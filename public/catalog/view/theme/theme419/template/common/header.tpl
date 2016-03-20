@@ -221,7 +221,7 @@ src="https://www.facebook.com/tr?id=1064590290230263&ev=PageView&noscript=1"
 										<?php echo $text_logged; ?>
 										<?php } ?>
 										</li>
-										<li><b><i class="fa fa-whatsapp"></i> 15 3011-0150</b></li>
+										<li><b><i class="fa fa-whatsapp"></i> (15) 3011-0150</b></li>
 										</ul>
 							<div class="clear"></div>
 						</div>
