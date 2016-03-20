@@ -1,4 +1,4 @@
-<?php header("Location: /index.php?route=checkout/simplecheckout"); exit; ?>
+<?php // header("Location: /index.php?route=checkout/simplecheckout"); exit; ?>
 
 
 <?php echo $header; ?>
