@@ -8,7 +8,7 @@
     <div style="text-transform: uppercase;
 			    color: #519C87;
 			    font-size: 22px; margin: 15px 0px 20px 0px; text-align: center;">
-    	compra na caserta em é fácil, rápido e seguro. são apenas <span style="color: #C75758;">3 passos</span> e leva <span style="color: #C75758;">menos de 5 minutos</span>!
+    	compra na caserta em é fácil, rápido e seguro. são apenas <span style="color: #C75758;">3 passos</span> e leva <span style="color: #C75758;">menos de 5 minutos</span>
     </div>
 
 	<div style="width: 33.33%; float: left; margin: 0px; padding: 0px;">
