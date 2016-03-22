@@ -235,8 +235,8 @@ table.radio tbody td {
 	</table>
   </div>
 	<div class="buttons">
-	<div class="right" style="background-color: white; padding: 10px 0px 10px 15px; border: solid 1px #C75758; border-radius: 5px;"><a href="<?php echo $checkout; ?>" class="button-cont-right" style="font-size: 14px;"><?php echo $button_checkout; ?><i class="fa fa-check"></i></a></div>
-	<div class="center" style="background-color: white; padding: 10px 0px 10px 15px; border: solid 1px #C75758; border-radius: 5px; float: left;"><a href="<?php echo $continue; ?>" class="button-cont-right" style="font-size: 14px;"><?php echo $button_shopping; ?><i class="fa fa-arrow-circle-right"></i></a></div>
+	<div class="right" style="background-color: #C75758; border: solid 1px #357ebd; border-radius: 5px; display: inline-block; padding: 5px 15px; white-space: nowrap; font-size: 17px; font-weight: 100; text-transform: lowercase; line-height: 19px; color: #fff;"><a href="<?php echo $checkout; ?>" class="button-cont-right" style="font-size: 14px;color: #FFF;"><?php echo $button_checkout; ?><i class="fa fa-check"></i></a></div>
+	<div class="center" style="background-color: #C75758; border: solid 1px #357ebd; border-radius: 5px; display: inline-block; padding: 5px 15px; white-space: nowrap; font-size: 17px; font-weight: 100; text-transform: lowercase; line-height: 19px; color: #fff; float: left;"><a href="<?php echo $continue; ?>" class="button-cont-right" style="font-size: 14px;color: #FFF;"><?php echo $button_shopping; ?><i class="fa fa-arrow-circle-right"></i></a></div>
   </div>
   </div>
   <?php echo $content_bottom; ?></div>
