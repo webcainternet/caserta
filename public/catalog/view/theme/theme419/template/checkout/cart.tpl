@@ -103,6 +103,7 @@ table.radio tbody td {
 		  </div>
 	</div>
   </form>
+  <?php /*
   <?php if ($coupon_status || $voucher_status || $reward_status || $shipping_status) { ?>
    <h2><?php echo $text_next; ?></h2>
   <div class="content shop-cart-content">
@@ -219,6 +220,8 @@ table.radio tbody td {
 	  </div>
 	</div>
 	<?php } ?>
+
+	*/ ?>
   
   <div class="cart-bottom">
 	<div class="cart-total">
