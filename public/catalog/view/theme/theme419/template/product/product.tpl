@@ -298,6 +298,7 @@ $(document).ready(function(){
 	<?php if ($product_info['quantity'] < 1) { ?>
 		<?php if ($product_info['stock_status'] == 'Encomendar') { ?>
 			<div class="cart">
+				<span style="padding: 10px; background-color: red; font-weight: bold; color: #FFF;">Produto indisponível</span>
 				Encomende agora mesmo!<br>
 				Via telefone: <span style="color: #C75758; font-size: 18px; font-weight: bold;">(15) 3011-0150</span> ou
 				<a style="margin: 15px 0px 15px 5px;" id="btencomendar" class="button"><span>Encomendar via chat</span></a>
