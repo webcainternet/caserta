@@ -288,6 +288,37 @@ $(document).ready(function(){
 		<?php } ?>
 	  </div>
 	  <?php } ?>
+
+
+	
+
+<?php // echo  '<pre>'; print_r(get_defined_vars()); echo '</pre>'; ?>
+<?php //var_dump(); exit; ?>
+
+	<?php if ($product_info['quantity'] < 1) { ?>
+		<?php if ($product_info['stock_status'] == 'Encomendar') { ?>
+			<div class="cart">
+				Encomende agora mesmo!<br>
+				<a style="margin: 15px 0px;" id="btencomendar" class="button"><span>Encomendar</span></a>
+
+				<script type="text/javascript">
+				$(document).ready(function(){
+					$("#btencomendar").click(function(){
+						    $zopim.livechat.window.show();
+					});
+				});
+				</script>
+			</div>
+		<?php } ?>
+
+		<?php if ($product_info['stock_status'] == 'Produto indisponível') { ?>
+			<div class="cart" style="padding-bottom: 20px; ">
+				<span style="padding: 10px; background-color: red; font-weight: bold; color: #FFF;">Produto indisponível</span>
+			</div>
+		<?php } ?>
+
+	<?php } else { ?>
+
 	  <div class="cart">
 		<div class="prod-row">
 			<div class="cart-top">
@@ -298,14 +329,7 @@ $(document).ready(function(){
 					</label>
 					<a id="button-cart" class="button-prod" ><i class="fa fa-shopping-cart"></i><?php echo $button_cart; ?></a>
 				</div>
-				<div class="extra-button">
-					<div class="wishlist">
-						<a   onclick="addToWishList('<?php echo $product_id; ?>');" title="<?php echo $button_wishlist; ?>"><i class="fa fa-star"></i><span><?php echo $button_wishlist; ?></span></a>
-					</div>
-					<div class="compare">
-						<a   onclick="addToCompare('<?php echo $product_id; ?>');" title="<?php echo $button_compare; ?>"><i class="fa fa-bar-chart-o"></i><span><?php echo $button_compare; ?></span></a>
-					</div>
-				</div>
+
 				<div class="clear"></div>
 				<?php if ($minimum > 1) { ?>
 				<div class="minimum"><?php echo $text_minimum; ?></div>
@@ -313,6 +337,9 @@ $(document).ready(function(){
 			</div>
 		</div>
 		</div>
+
+	<?php } ?>
+
 		<div class="clear"></div>
 		<?php if ($review_status) { ?>
 		<div class="review">
@@ -467,7 +494,6 @@ $(document).ready(function(){
 			<div class="cart-button">
 				<div class="cart">
 					<a title="<?php echo $button_cart; ?>" onclick="addToCart('<?php echo $product['product_id']; ?>');" class="button ">
-						<!--<i class="fa fa-shopping-cart"></i>-->
 						<span><?php echo $button_cart; ?></span>
 					</a>
 				</div>
